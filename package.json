@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Camilo-Riobamba/3-column-preview-card-component-main/issues"
   },
-  "homepage": "https://github.com/Camilo-Riobamba/3-column-preview-card-component-main#readme"
+  "homepage": "https://github.com/Camilo-Riobamba/3-column-preview-card-component-main#readme",
+  "devDependencies": {
+    "sass": "^1.43.4"
+  }
 }
