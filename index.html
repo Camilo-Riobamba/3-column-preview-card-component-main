@@ -9,62 +9,58 @@
   <title>Frontend Mentor | 3-column preview card component</title>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <link rel="stylesheet" href="./styles/main.css">
   <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/main.css">
 
 </head>
 
 <body>
 
-  <div>
+  <div class="container p-2 bg-light" style="min-height: 100vh;">
 
-    <article>
-      <section>
+    <article class="container-sm border-radius overflow-hidden text-light box-shadow w-75-sm">
+      <section class="bg-orange p-3">
         <header>
           <div>
             <img src="./images/icon-sedans.svg" alt="Sedans icon">
           </div>
           <div>
-            <h2>Sedans</h2>
+            <h2 class="text-very-light">Sedans</h2>
             <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip</p>
           </div>
         </header>
-        <div>
-          <a href="#">Learn more</a>
+        <div style="margin-top: 3rem;">
+          <a href="#" class="button bg-light text-orange">Learn more</a>
         </div>
       </section>
-    </article>
 
-    <article class="container">
-      <section>
+      <section class="bg-cyan p-3">
         <header>
           <div>
             <img src="./images/icon-suvs.svg" alt="Suvs icon">
           </div>
           <div>
-            <h2>Suvs</h2>
+            <h2 class="text-very-light">Suvs</h2>
             <p>Take an SUV for its spacious interior, power, and versatility. Perfect for youor next family vacation and off-road adventures.</p>
           </div>
         </header>
-        <div>
-          <a href="#">Learn more</a>
+        <div style="margin-top: 3rem;">
+          <a href="#" class="button bg-light text-cyan">Learn more</a>
         </div>
       </section>
-    </article>
 
-    <article class="container">
-      <section>
+      <section class="bg-dark-cyan p-3">
         <header>
           <div>
             <img src="./images/icon-luxury.svg" alt="Luxury icon">
           </div>
           <div>
-            <h2>Luxury</h2>
+            <h2 class="text-very-light">Luxury</h2>
             <p>cruise in the best car brands without the bloated prices. ENjoy the enhanced comfort of a luxury rental and arrive in style.</p>
           </div>
         </header>
-        <div>
-          <a href="#">Learn more</a>
+        <div style="margin-top: 3rem;">
+          <a href="#" class="button bg-light text-dark-cyan">Learn more</a>
         </div>
       </section>
     </article>
